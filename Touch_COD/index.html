@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Slide and Swipe Menu</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- CSS stylesheet for example -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+        <!-- CSS stylesheet for sliding-swipe-menu -->
+        <link rel="stylesheet" href="css/slide-and-swipe-menu.css">
+
+    </head>
+    <body>
+        <nav class="nav">
+            <img src="img/swipe.png" alt="swipe image" />
+            <p>Slide and Swipe Menu demo</p>
+        </nav>
+        <main class="nav">
+            <h1>Slide and Swipe Menu</h1>
+            <button class="ssm-toggle-nav" title="open nav">open / close navigation</button>
+        </main>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.touchSwipe.min.js"></script>
+        <script src="js/jquery.slideandswipe.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.nav').slideAndSwipe();
+            });
+        </script>
+
+    </body>
+</html>
