@@ -1,0 +1,141 @@
+
+.sis{    
+background-color: #F47822;
+}
+
+.card{
+    border-radius:10%;
+
+}
+
+.center{
+    align-content: center;
+    
+}
+
+
+.navbar{   
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+#meulink{
+    color:rgba(0,0,0,0.5);
+}
+
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .5s;
+}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+
+.heading-content {
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    color: #FFFFFF;
+    text-align: center; }
+
+.title{
+    z-index: 1;
+    position: static ;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(255,255,255) 15px, transparent 500px);
+}
+
+
+
+.transp img:hover{ 
+      
+    -moz-opacity: 1.0;
+	opacity: 1.0 ;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	filter: alpha(opacity=50); 	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)"; 
+}
+
+
+.techclass{
+    width: 40%;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem; }
+
+    .img-thumbnail,.img-thumbnail+.img-hover{
+        border-radius:1rem
+    }
+    .img-color img{
+        -webkit-filter:grayscale(100%);
+        filter:grayscale(100%);
+        transition:all .4s ease-in-out
+    }
+    .img-color:hover img{
+        -webkit-filter:none;
+        filter:none
+    }
+    .img-overlay{
+        position:relative
+    }
+    .img-overlay .img-hover{
+        background-color:rgba(255,255,255,.7);
+        position:absolute;
+        top:0;left:0;
+        height:100%;
+        width:100%;
+        opacity:0;
+        transition:.5s ease
+    }
+    .img-overlay .img-text{
+        color:#fff;
+        font-size:1.25rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        opacity:0;
+        width:100%;
+        height:100%;
+        margin:0;
+        text-align:center;
+        transform:translateY(10px);
+        transition:opacity .5s ease-in-out,transform .5s ease-in-out
+    }
+    .img-overlay:hover .img-hover,.img-overlay:hover .img-text{
+        opacity:1
+    }
+    .img-overlay:hover .img-text{
+        transform:translateY(0)
+    }
+    .img-rising img{
+        transition:all .3s ease-in-out
+    }
+    .img-rising:hover img{
+        box-shadow:0 .5rem 1rem rgba(14,14,14,.15);
+        transform:translateY(-5px)
+    }
+    .img-scale{
+        overflow:hidden;
+        position:relative
+    }
+    .img-scale .img-wrap{
+        overflow:hidden;
+        width:calc(100% + 1px)
+    }
+    .img-scale img{
+        transform:scale(1);
+        transition:transform .3s ease
+    }
+    .img-scale:hover img{
+        transform:scale(1.1)
+    }    
