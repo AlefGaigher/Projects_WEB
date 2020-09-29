@@ -1,0 +1,63 @@
+.sis{    
+background-color: #F47822;
+}
+
+.card{
+    border-radius:10%;
+
+}
+
+.center{
+    align-content: center;
+    
+}
+
+kbd{
+    border-radius:35%;
+    background-color: #F47822;
+
+}
+
+.navbar{
+    
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+#meulink{
+    color: #F47822;
+}
+
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .5s;
+    
+}
+#div1{transition: .20s;}
+#div2{transition: .30s;}
+#div3{transition: .40s;}
+#div4{transition: .50s;}
+#div5{transition: .60s;}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+.heading-content {
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    text-align: center; }
+
+.title{
+    z-index: 1;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,.4) 5px, transparent 650px);
+}
+
+
