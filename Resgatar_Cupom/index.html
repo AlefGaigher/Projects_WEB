@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+    <link rel="shortcut icon" href="images/logos/favicon.ico" >        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resgate seu Presente</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style2.css"/>
+    </head>
+    <body class="d-flex mt-5">
+            <div class="container col-xl-5 "> <br>
+                <h4 class="h1-responsive font-weight-bold wow text-center" data-wow-delay="0.3s"><i class="fa fa-gift"></i> Resgate seu Presente</h4><br>
+                <form method='post' action='enviar_email.php'>
+                <div class="form-group">
+                    <label for="exampleInputName"><b>Nome</b></label>
+                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Seu Nome" name='nome'>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1"><b>Endereço de email</b></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@example.com.br" name='email'>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputSchool"><b>Nome da Escola</b></label>
+                    <input type="text" class="form-control" id="exampleInputSchool" aria-describedby="schoolHelp" placeholder="Sua Escola" name='escola'>
+                  </div>
+                    <div class="form-group">
+                    <label for="exampleInputSchool"><b>Código do Cartão Presente</b></label>
+                    <input type="text" class="form-control" id="exampleInputSchool" aria-describedby="schoolHelp" placeholder="Digite o Código do Cartão" name='codigo'>
+                  </div>
+                     <button type="submit" class="btn btn-secondary w-100" name='enviar' value='Enviar'>Enviar</button>
+                </form>
+                <footer class="page-footer font-small pt-4">
+                  <div class="footer-copyright text-center py-3">© 2019 Copyright:<a href="http://sisdanca.com.br/"> sisdanca.com.br</a></div>
+                </footer>
+            </div>
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

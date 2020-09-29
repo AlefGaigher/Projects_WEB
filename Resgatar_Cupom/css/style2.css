@@ -1,0 +1,16 @@
+.container {
+  background-color: #fff;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-shadow:0 0 5px rgba(0,0,0,0.7); 
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.7); 
+  box-shadow:0 0 5px rgba(0,0,0,0.7);
+  border-radius: 5px 5px 5px 5px;
+  
+}
+body{    
+    background-color: #E8E8E8;
+    
+}
